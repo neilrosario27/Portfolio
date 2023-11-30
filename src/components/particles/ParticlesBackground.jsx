@@ -27,3 +27,22 @@ export default function ParticlesBackground() {
     />
   );
 }
+
+// import React, { useEffect } from "react";
+// import particlesJS from "particles.js";
+
+// import particlesConfig from "./config/particles-config";
+
+// const ParticlesBackground = () => {
+//   useEffect(() => {
+//     particlesJS("particles-container", particlesConfig);
+//   }, []);
+
+//   return (
+//     <div id="particles-container">
+//       {/* Your other React components or content */}
+//     </div>
+//   );
+// };
+
+// export default ParticlesBackground;
