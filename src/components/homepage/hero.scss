@@ -1,0 +1,46 @@
+.hero {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .hero-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .name {
+      font-size: 10vh;
+      font-weight: bolder;
+    }
+
+    .designation {
+      font-size: 5vh;
+      font-weight: bold;
+    }
+  }
+
+  .custom-shape-divider-bottom-1701353959 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .custom-shape-divider-bottom-1701353959 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 192px;
+  }
+
+  .custom-shape-divider-bottom-1701353959 .shape-fill {
+    fill: #111132;
+  }
+}
