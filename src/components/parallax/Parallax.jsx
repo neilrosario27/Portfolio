@@ -24,12 +24,12 @@ export const Parallax = ({ type }) => {
             : "linear-gradient(180deg, #111132, #505064)",
       }}
     >
-      <motion.h1 style={{ x: yText }}>
+      <motion.h1 style={{ y: yText }}>
         {type === "about" ? "About Me" : "My Projects"}
       </motion.h1>
       <motion.div className="mountains"></motion.div>
       <motion.div className="planets"></motion.div>
-      <motion.div style={{ y: yBg }} className="stars"></motion.div>
+      <motion.div style={{ x: yBg }} className="stars"></motion.div>
     </div>
   );
 };
