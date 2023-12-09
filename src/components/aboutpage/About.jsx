@@ -4,7 +4,10 @@ import "./about.scss";
 export const About = () => {
   return (
     <div className="about">
-      <div className="about-info">
+      <div
+        className="about-info"
+        style={{ backgroundImage: 'url("./about-image3.jpg")' }}
+      >
         <div className="info">
           Hello! I'm Neil, a passionate third-year computer engineering student.
           Currently pursuing my degree, I have developed a keen interest in

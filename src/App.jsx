@@ -12,7 +12,7 @@ import { Project } from "./components/projectpage/Project.jsx";
 const App = () => {
   return (
     <div>
-      {/* <section>
+      {/* <section className="tp">
         <ParticlesBackground />
       </section> */}
       <section id="Homepage">

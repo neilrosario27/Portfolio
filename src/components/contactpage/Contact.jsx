@@ -31,7 +31,10 @@ export const Contact = () => {
             <CopyToClipboardButton />
           </div>
         </div>
-        <div className="contact-image"></div>
+        <div
+          className="contact-image"
+          style={{ backgroundImage: 'url("./Code typing-pana.png")' }}
+        ></div>
         <div className="contact-links">
           <div className="twitter">
             <FontAwesomeIcon
